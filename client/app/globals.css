@@ -1,0 +1,51 @@
+:root {
+  --board-bg: linear-gradient(135deg, #8b5cf6 0%, #c084fc 30%, #d946ef 60%, #ec4899 100%);
+  --list-bg: #101204;
+  --card-bg: #22272b;
+  --header-bg: #1d2125;
+  --text-primary: #b6c2cf;
+  --text-secondary: #9fadbc;
+  --accent-green: #22a06b;
+  /* Updated green */
+  --accent-blue: #579dff;
+  --surface-overlay: #282e33;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #1d2125;
+  color: var(--text-primary);
+  height: 100vh;
+  overflow: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+}

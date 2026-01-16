@@ -1,0 +1,74 @@
+.dropdown {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  width: 304px;
+  background-color: #282e33;
+  border-radius: 3px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #b6c2cf;
+}
+
+.header {
+  padding: 12px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(135deg, #FF66CC 0%, #1CB5E0 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  font-size: 14px;
+  color: #b6c2cf;
+}
+
+.email {
+  font-size: 12px;
+  color: #9fadbc;
+}
+
+.menu {
+  padding: 12px 0;
+  list-style: none;
+  margin: 0;
+}
+
+.menuItem {
+  padding: 6px 12px;
+  font-size: 14px;
+  color: #b6c2cf;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menuItem:hover {
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.divider {
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin: 8px 0;
+}
